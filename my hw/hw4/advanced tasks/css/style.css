@@ -1,0 +1,202 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+body{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+.header{
+    height: 120px;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    margin: 0px 10px 0px 0px;
+    background: black;
+}
+.header_content{
+    height: 100%;
+    background: black;
+    width: 80%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.box389{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 300px;
+    background: black;
+}
+.box89{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    background: black;
+}
+.box4567{
+    width: 80%;
+    margin: 0px 0px 0px 10px;
+}
+.box45{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: 0px 0px 10px 0px;
+}
+.Bath_section_info{
+    width: 80%;
+    background: black;
+}
+.ad{
+    margin: 0px 0px 0px 10px;
+    width: 20%;
+    background: black;
+}
+.box67{
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+}
+.types_of_baths{
+    width: 80%;
+    background: black;
+}
+.related_products{
+    width: 20%;
+    background: black;
+    margin: 0px 0px 0px 10px;
+}
+.footer{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+@media screen and (max-width: 900px){
+    .row{
+        flex-direction: column;
+    }
+    .box389{
+        width: 100%;
+    }
+    .box89{
+        position: absolute;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box{
+        position: relative;
+        top:730px;
+        left: 0px;
+        height: 50px;
+        width: 49%;
+        background: purple;
+    }
+    .box4567{
+        width: 100%;
+        margin: 0px;
+    }
+    .box45{
+        margin: 10px 0px 0px 0px;
+    }
+    .box67{
+        flex-direction: column;
+        margin: 10px 0px 0px 0px;
+    }
+    .related_products{
+        margin: 10px 0px 0px 0px;
+        background: darkred;
+        height: 50%;
+        width: 100%;
+    }
+    .types_of_baths{
+        height: 100%;
+        width: 100%;
+    }
+    .footer{
+        margin: 70px 0px 0px 0px;
+    }
+}
