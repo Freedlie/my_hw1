@@ -21,9 +21,33 @@ let book3 = {
     genre: 'epic'
 }
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
-book1.authors = ['Ivan ', 55];
-book2.authors = ['Valerian ', 43];
-book3.authors = ['Dante ', 49];
+book1.authors = [
+    obj1 = {
+        name: 'Ivan'
+    },
+    obj2 = {
+        age: 55
+    }
+];
+
+book2.authors = [
+    obj1 = {
+        name: 'Valerian'
+    },
+    obj2 = {
+        age: 43
+    }
+];
+
+book3.authors = [
+    obj1 = {
+        name: 'Dante'
+    },
+    obj2 = {
+        age: 49
+    }
+];
+
 console.log(book1);
 console.log(book2);
 console.log(book3);
@@ -79,7 +103,7 @@ let userArr = [
         username: 're923esd',
         password: 'fdloew92'
     }
-]
+];
 for(let i = 0; i <= 9; i++){
     console.log(`user${i+1} password: ${userArr[i].password}`);
 }
