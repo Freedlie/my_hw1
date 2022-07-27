@@ -1,9 +1,21 @@
-// Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-    let arr = [];
-    for(let i = 0; i <= 9; i++){
-        arr[i] = i * 2;
-        console.log(`arr[${i}] = ${arr[i]}`);
-    }
+// // Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+//     let arr = [];
+//     for(let i = 0; i <= 9; i++){
+//         arr[i] = i * 2;
+//         console.log(`arr[${i}] = ${arr[i]}`);
+//     }
+    let arr = [5, 2, 'Hello', 'world', true, 83, false, 7.4, -34, 'last'];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+console.log(arr[4]);
+console.log(arr[5]);
+console.log(arr[6]);
+console.log(arr[7]);
+console.log(arr[8]);
+console.log(arr[9]);
+
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 let book1 = {
         title: 'kaydashevs family',
@@ -104,6 +116,14 @@ let userArr = [
         password: 'fdloew92'
     }
 ];
-for(let i = 0; i <= 9; i++){
-    console.log(`user${i+1} password: ${userArr[i].password}`);
-}
+
+console.log(`user1 password: ${userArr[0].password}`);
+console.log(`user2 password: ${userArr[1].password}`);
+console.log(`user3 password: ${userArr[2].password}`);
+console.log(`user4 password: ${userArr[3].password}`);
+console.log(`user5 password: ${userArr[4].password}`);
+console.log(`user6 password: ${userArr[5].password}`);
+console.log(`user7 password: ${userArr[6].password}`);
+console.log(`user8 password: ${userArr[7].password}`);
+console.log(`user9 password: ${userArr[8].password}`);
+console.log(`user10 password: ${userArr[9].password}`);
