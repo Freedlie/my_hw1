@@ -87,12 +87,12 @@ switch (num){
 //
 
 let firstNum = +prompt('enter smth number');
-let SecondNum = +prompt('enter smth number');
-if(firstNum > SecondNum){
+let secondNum = +prompt('enter smth number');
+if(firstNum > secondNum){
     console.log('Перше число більше за друге');
-} else if(SecondNum > firstNum){
+} else if(secondNum > firstNum){
     console.log('Друге число більше за перше');
-} else if(SecondNum === firstNum){
+} else if(secondNum === firstNum){
     console.log('числа рівні');
 } else{
     console.log('Error');
@@ -106,7 +106,7 @@ let message = prompt('enter smth');
 if(message === '0'){
     x1 = 'default';
 } else{
-    x1 = x1 || 'default';
+    x1 = message || 'default';
 }
 console.log(x1);
 
