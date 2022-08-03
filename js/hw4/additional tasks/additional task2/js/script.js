@@ -260,12 +260,12 @@ let usersList = [
 ];
 
 
-document.write('<div className="users-box">');
+document.write('<div class="users-box">');
 for(let user of usersList){
-    document.write('<div className="user-block">');
+    document.write('<div class="user-block">');
     document.write(`<h2>${user.id} - ${user.name} - ${user.username} </h2>`);
     document.write(`<h3>${user.email} - ${user.phone}</h3>`);
-    document.write('<div className="address-block">');
+    document.write('<div class="address-block">');
     document.write(`<p>City - ${user.address.city}</p>
                  <p>Street - ${user.address.street}</p>
                  <p>Suite - ${user.address.suite}</p>
