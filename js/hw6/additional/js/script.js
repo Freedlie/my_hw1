@@ -50,7 +50,7 @@
 // }
 // console.log(foo(str));
 
-//
+
 // - Дано список імен.
 //     let n1 = 'Harry..Potter'
 // let n2 = 'Ron---Whisley'
