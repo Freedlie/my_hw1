@@ -180,34 +180,35 @@
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-// class Cinderella{
-//     constructor(name, age, size) {
-//         this.name = name;
-//         this.age = age;
-//         this.size = size;
-//     }
-// }
-// let cinderellas = [
-//     new Cinderella('Olena', 18, 34),
-//     new Cinderella('Sonya', 19, 35),
-//     new Cinderella('julia', 22, 36),
-//     new Cinderella('katya', 50, 37),
-//     new Cinderella('Ira', 37, 38),
-//     new Cinderella('Masha', 21, 39),
-//     new Cinderella('Cinderella', 24, 40),
-//     new Cinderella('Vika', 44, 41),
-//     new Cinderella('Alina', 33, 42),
-//     new Cinderella('Nastya', 32, 43)
-// ];
-// console.log(cinderellas);
-// class Prince extends Cinderella{}
-// let prince = new Prince('Ivan', 25, 40);
-// console.log(prince);
-//
-// for (let i = 0; i < cinderellas.length; i++) {
-//     if(cinderellas[i].size === prince.size){
-//         console.log(`${cinderellas[i].name} повинна бути з принцом`);
-//     }
-// }
-//
-// console.log(cinderellas.find(value => value.size === prince.size));
+class Cinderella{
+    constructor(name, age, size) {
+        this.name = name;
+        this.age = age;
+        this.size = size;
+    }
+}
+let cinderellas = [
+    new Cinderella('Olena', 18, 34),
+    new Cinderella('Sonya', 19, 35),
+    new Cinderella('julia', 22, 36),
+    new Cinderella('katya', 50, 37),
+    new Cinderella('Ira', 37, 38),
+    new Cinderella('Masha', 21, 39),
+    new Cinderella('Cinderella', 24, 40),
+    new Cinderella('Vika', 44, 41),
+    new Cinderella('Alina', 33, 42),
+    new Cinderella('Nastya', 32, 43)
+];
+console.log(cinderellas);
+class Prince extends Cinderella{}
+let prince = new Prince('MC Petya', 25, 40);
+console.log(prince);
+
+for (let i = 0; i < cinderellas.length; i++) {
+    if(cinderellas[i].size === prince.size){
+        console.log(`${cinderellas[i].name} повинна бути з ${prince.name}`);
+    }
+}
+
+console.log(cinderellas.find(value => value.size === prince.size));
+
