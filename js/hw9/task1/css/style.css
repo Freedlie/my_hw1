@@ -1,0 +1,45 @@
+.title{
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.monthDuration{
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    transition: 1s;
+}
+.monthDuration:hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+}
+.hourDuration{
+    width: 69%;
+    border: 1px solid black;
+    text-align: center;
+    transition: 1s;
+}
+.hourDuration:hover{
+    border: 2px solid darkblue;
+    transition: 0.5s;
+}
+.cell{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    width: 100%;
+}
+.column{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
